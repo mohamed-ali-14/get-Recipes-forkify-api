@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    
+  </head>
+  <body>
+    <div id="up"class="position-fixed d-flex justify-content-center align-items-center"><i class="fa-solid fa-angles-up"></i></div>
+    
+    <nav class="navbar navbar-expand bg-light">
+      <div class="container d-flex justify-content-around">
+        <a class="navbar-brand" href="#">kitchen</a>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ITEMS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">pizza</a></li>
+                <li><a class="dropdown-item" href="#">carrot</a></li>
+                <li><a class="dropdown-item" href="#">corn</a></li>
+                <li><a class="dropdown-item" href="#">potato</a></li>
+                <li><a class="dropdown-item" href="#">tomato</a></li>
+                <li><a class="dropdown-item" href="#">mushrooms</a></li>
+                <li><a class="dropdown-item" href="#">broccoli</a></li>
+                <li><a class="dropdown-item" href="#">asparagus</a></li>
+                <li><a class="dropdown-item" href="#">cauliflower</a></li>
+                <li><a class="dropdown-item" href="#">lettuce</a></li>
+                <li><a class="dropdown-item" href="#">pumpkin</a></li>
+                <li><a class="dropdown-item" href="#">red pepper</a></li>
+                <li><a class="dropdown-item" href="#">green pepper</a></li>
+                <li><a class="dropdown-item" href="#">peas</a></li>
+                <li><a class="dropdown-item" href="#">cabbage</a></li>
+                <li><a class="dropdown-item" href="#">lentil</a></li>
+                <li><a class="dropdown-item" href="#">apricot</a></li>
+                <li><a class="dropdown-item" href="#">avocado</a></li>
+              </ul>
+            </li>
+          </ul>
+          <h3 id="num"></h3>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-5">
+      <div id="row" class="row "></div>
+    </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div id="modal-body"class="modal-body">
+      
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
